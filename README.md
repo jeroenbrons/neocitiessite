@@ -1,2 +1,2 @@
-# neocitiessite
+# neocities-site van SPARCie
 

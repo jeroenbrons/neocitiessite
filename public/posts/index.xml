@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SPARCies site</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on SPARCies site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Feb 2023 09:52:50 +0100</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Homelab</title>
+      <link>http://example.org/posts/my-homelab/</link>
+      <pubDate>Thu, 02 Feb 2023 09:52:50 +0100</pubDate>
+      
+      <guid>http://example.org/posts/my-homelab/</guid>
+      <description>What do i use for hobbying So i own several systems that can be considered homelab, not all of which are modern.
+Network Netgear Gigabit Switch (managed Layer 2) Cisco 1921 Infrastructure Synology NAS (DS720+) HPE Proliant DL380e Gen8 2x Xeon E5-2430L V2 2 </description>
+      <content>&lt;h1 id=&#34;what-do-i-use-for-hobbying&#34;&gt;What do i use for hobbying&lt;/h1&gt;
+&lt;p&gt;So i own several systems that can be considered homelab, not all of which are modern.&lt;/p&gt;
+&lt;h2 id=&#34;network&#34;&gt;Network&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Netgear Gigabit Switch (managed Layer 2)&lt;/li&gt;
+&lt;li&gt;Cisco 1921&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;infrastructure&#34;&gt;Infrastructure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Synology NAS (DS720+)&lt;/li&gt;
+&lt;li&gt;HPE Proliant DL380e Gen8
+&lt;ul&gt;
+&lt;li&gt;2x Xeon E5-2430L V2&lt;/li&gt;
+&lt;li&gt;2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

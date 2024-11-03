@@ -1,10 +1,10 @@
 +++
 title = "Why KVM?"
-date = "2023-06-09T09:52:50+01:00"
+date = "2024-11-03T10:52:50+01:00"
 author = "SPARCie"
 authorTwitter = "" #do not include @
 cover = ""
-tags = ["", ""]
+tags = ["homelab", "virtualisation", "KVM"]
 keywords = ["", ""]
 description = ""
 showFullContent = false

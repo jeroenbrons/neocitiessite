@@ -1,8 +1,10 @@
 baseURL = 'http://sparcie.neocities.org/'
 languageCode = 'en-us'
 title = 'SPARCies site'
-#theme = 'terminal'
-theme = "hugo-blog-awesome"
+theme = 'terminal'
+sectionPagesMenu = 'main'
+mainSections = ["About"]
+#theme = "hugo-blog-awesome"
 # [markup]
 #   [markup.highlight]
 #     anchorLineNos = false

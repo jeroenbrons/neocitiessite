@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homelab on SPARCies site</title>
+    <link>http://sparcie.neocities.org/tags/homelab/</link>
+    <description>Recent content in Homelab on SPARCies site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2024 10:52:50 +0100</lastBuildDate><atom:link href="http://sparcie.neocities.org/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why KVM?</title>
+      <link>http://sparcie.neocities.org/posts/why-kvm/</link>
+      <pubDate>Sun, 03 Nov 2024 10:52:50 +0100</pubDate>
+      
+      <guid>http://sparcie.neocities.org/posts/why-kvm/</guid>
+      <description>&lt;h1 id=&#34;why-use-kvm&#34;&gt;Why use KVM?&lt;/h1&gt;
+&lt;p&gt;Due to the Big.Little-like architecture of the 12th gen core-CPU&amp;rsquo;s most other hypervisors (like ESXi and Xen/XCP-NG) cannot use all cores.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;why-use-kvm&#34;&gt;Why use KVM?&lt;/h1&gt;
+&lt;p&gt;Due to the Big.Little-like architecture of the 12th gen core-CPU&amp;rsquo;s most other hypervisors (like ESXi and Xen/XCP-NG) cannot use all cores.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

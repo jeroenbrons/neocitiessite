@@ -2,37 +2,265 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SPARCies site</title>
-    <link>http://example.org/</link>
+    <link>http://sparcie.neocities.org/</link>
     <description>Recent content on SPARCies site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Feb 2023 09:52:50 +0100</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Nov 2024 10:52:50 +0100</lastBuildDate><atom:link href="http://sparcie.neocities.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Homelab</title>
-      <link>http://example.org/posts/my-homelab/</link>
-      <pubDate>Thu, 02 Feb 2023 09:52:50 +0100</pubDate>
+      <link>http://sparcie.neocities.org/posts/my-homelab/</link>
+      <pubDate>Sun, 03 Nov 2024 10:52:50 +0100</pubDate>
       
-      <guid>http://example.org/posts/my-homelab/</guid>
-      <description>What do i use for hobbying So i own several systems that can be considered homelab, not all of which are modern.
-Network Netgear Gigabit Switch (managed Layer 2) Cisco 1921 Infrastructure Synology NAS (DS720+) HPE Proliant DL380e Gen8 2x Xeon E5-2430L V2 2 </description>
+      <guid>http://sparcie.neocities.org/posts/my-homelab/</guid>
+      <description>&lt;h1 id=&#34;what-do-i-use-for-hobbying&#34;&gt;What do i use for hobbying&lt;/h1&gt;
+&lt;p&gt;So i own several systems that can be considered homelab, not all of which are modern.&lt;/p&gt;
+&lt;h2 id=&#34;network&#34;&gt;Network&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Netgear Gigabit Switch (managed Layer 2), it sucks and am looking for a better switch)&lt;/li&gt;
+&lt;li&gt;Routing through a old load-balancer with OPNSense&lt;/li&gt;
+&lt;li&gt;A Unifi UAP-AC PRO (will be replaced with a Aerohive AC130 ASAP)&lt;/li&gt;
+&lt;li&gt;A Wireless router serving as a wireless bridge (temporary until we finalize the Ethernet connection)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;infrastructure&#34;&gt;Infrastructure&lt;/h2&gt;
+&lt;h3 id=&#34;the-always-on-stuff&#34;&gt;The always-on stuff&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Synology NAS for:
+&lt;ul&gt;
+&lt;li&gt;Storage (duh!)&lt;/li&gt;
+&lt;li&gt;my IRC-client for communitcation NurdSpace and my former (internship-)colleagus at BIT BV&lt;/li&gt;
+&lt;li&gt;Gitea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Intel NUC 12 pro
+&lt;ul&gt;
+&lt;li&gt;Intel I5-1250P&lt;/li&gt;
+&lt;li&gt;64GB DDR4 (non-ECC :/)&lt;/li&gt;
+&lt;li&gt;NVME 2TB SSD&lt;/li&gt;
+&lt;li&gt;SATA 2TB SSD&lt;/li&gt;
+&lt;li&gt;Applications:
+&lt;ul&gt;
+&lt;li&gt;IPAM at home&lt;/li&gt;
+&lt;li&gt;RKE2-cluster (which i&amp;rsquo;ll move most of the Docker-stuff to)&lt;/li&gt;
+&lt;li&gt;RDS-VDI&lt;/li&gt;
+&lt;li&gt;ADDC&lt;/li&gt;
+&lt;li&gt;My virtual DEC VAX (HYUNA on HECnet)&lt;/li&gt;
+&lt;li&gt;my connection to HECnet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A zBook 15 G2 a broken GPU and ESXi 7 for my retro-stuff
+&lt;ul&gt;
+&lt;li&gt;My Windows Server 2003 R2 DC for my vintage IT-stuff&lt;/li&gt;
+&lt;li&gt;Novell Netware 6.5 SP8 for the DOS-stuff&lt;/li&gt;
+&lt;li&gt;SCO OpenServer 7 for playing around in&lt;/li&gt;
+&lt;li&gt;The Solaris 10 and 11-VM&amp;rsquo;s for netboot and repositories for their respective versions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-stuff-i-power-on-when-needed&#34;&gt;The stuff i power on when needed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sun
+&lt;ul&gt;
+&lt;li&gt;SPARC Enterprise T5120
+&lt;ul&gt;
+&lt;li&gt;32 threads&lt;/li&gt;
+&lt;li&gt;32GB DDR2 FB-DIMM&lt;/li&gt;
+&lt;li&gt;1x 146GB disk for Solaris 11&lt;/li&gt;
+&lt;li&gt;2x 600GB for LDOMS/VMs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SPARC Enterprise T5220
+&lt;ul&gt;
+&lt;li&gt;32 threads&lt;/li&gt;
+&lt;li&gt;32GB DDR2 FB-DIMM&lt;/li&gt;
+&lt;li&gt;8x 146GB disk for Solaris 10 in a huge RAID-0 (YOLO)&lt;/li&gt;
+&lt;li&gt;runs zones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HPE
+&lt;ul&gt;
+&lt;li&gt;Proliant DL380e Gen8
+&lt;ul&gt;
+&lt;li&gt;2x Intel Xeon E5-2430L v2 (hexa-core)&lt;/li&gt;
+&lt;li&gt;256GB DDR3 RDIMM&lt;/li&gt;
+&lt;li&gt;Assorted mess of storage (both SSD and HDD)&lt;/li&gt;
+&lt;li&gt;Runs KVM, LXD and MicroK8S for stuff like training courses and playing around&lt;/li&gt;
+&lt;li&gt;also contains my Turnkey MVS-instance in Hercules&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DEC
+&lt;ul&gt;
+&lt;li&gt;AlphaServer DS20E
+&lt;ul&gt;
+&lt;li&gt;1x EV67 800Mhz (i have the second cpu as a spare)&lt;/li&gt;
+&lt;li&gt;1GB RAM&lt;/li&gt;
+&lt;li&gt;disks depend on whether i&amp;rsquo;m running OpenVMS or Tru64&lt;/li&gt;
+&lt;li&gt;HECnet node JIMIN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;VAXStation 4000 Model 60
+&lt;ul&gt;
+&lt;li&gt;KA46 VAX processor&lt;/li&gt;
+&lt;li&gt;32MB RAM&lt;/li&gt;
+&lt;li&gt;2x 72GB SCSI disk (one for OpenVMS, one for data)&lt;/li&gt;
+&lt;li&gt;HECnet node CHOA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AlphaServer 1000e (EV5 version)
+&lt;ul&gt;
+&lt;li&gt;EV5 500 Mhz&lt;/li&gt;
+&lt;li&gt;768MB RAM&lt;/li&gt;
+&lt;li&gt;Has some weird issue with SCSI that i&amp;rsquo;m debugging, can only boot NT (and maybe other OSES from AlphaBios) ATM&lt;/li&gt;
+&lt;li&gt;HECnet node name once i get OpenVMS running again: A1KSPK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content>&lt;h1 id=&#34;what-do-i-use-for-hobbying&#34;&gt;What do i use for hobbying&lt;/h1&gt;
 &lt;p&gt;So i own several systems that can be considered homelab, not all of which are modern.&lt;/p&gt;
 &lt;h2 id=&#34;network&#34;&gt;Network&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Netgear Gigabit Switch (managed Layer 2)&lt;/li&gt;
-&lt;li&gt;Cisco 1921&lt;/li&gt;
+&lt;li&gt;Netgear Gigabit Switch (managed Layer 2), it sucks and am looking for a better switch)&lt;/li&gt;
+&lt;li&gt;Routing through a old load-balancer with OPNSense&lt;/li&gt;
+&lt;li&gt;A Unifi UAP-AC PRO (will be replaced with a Aerohive AC130 ASAP)&lt;/li&gt;
+&lt;li&gt;A Wireless router serving as a wireless bridge (temporary until we finalize the Ethernet connection)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;infrastructure&#34;&gt;Infrastructure&lt;/h2&gt;
+&lt;h3 id=&#34;the-always-on-stuff&#34;&gt;The always-on stuff&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Synology NAS (DS720+)&lt;/li&gt;
-&lt;li&gt;HPE Proliant DL380e Gen8
+&lt;li&gt;Synology NAS for:
 &lt;ul&gt;
-&lt;li&gt;2x Xeon E5-2430L V2&lt;/li&gt;
-&lt;li&gt;2&lt;/li&gt;
+&lt;li&gt;Storage (duh!)&lt;/li&gt;
+&lt;li&gt;my IRC-client for communitcation NurdSpace and my former (internship-)colleagus at BIT BV&lt;/li&gt;
+&lt;li&gt;Gitea&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Intel NUC 12 pro
+&lt;ul&gt;
+&lt;li&gt;Intel I5-1250P&lt;/li&gt;
+&lt;li&gt;64GB DDR4 (non-ECC :/)&lt;/li&gt;
+&lt;li&gt;NVME 2TB SSD&lt;/li&gt;
+&lt;li&gt;SATA 2TB SSD&lt;/li&gt;
+&lt;li&gt;Applications:
+&lt;ul&gt;
+&lt;li&gt;IPAM at home&lt;/li&gt;
+&lt;li&gt;RKE2-cluster (which i&amp;rsquo;ll move most of the Docker-stuff to)&lt;/li&gt;
+&lt;li&gt;RDS-VDI&lt;/li&gt;
+&lt;li&gt;ADDC&lt;/li&gt;
+&lt;li&gt;My virtual DEC VAX (HYUNA on HECnet)&lt;/li&gt;
+&lt;li&gt;my connection to HECnet&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A zBook 15 G2 a broken GPU and ESXi 7 for my retro-stuff
+&lt;ul&gt;
+&lt;li&gt;My Windows Server 2003 R2 DC for my vintage IT-stuff&lt;/li&gt;
+&lt;li&gt;Novell Netware 6.5 SP8 for the DOS-stuff&lt;/li&gt;
+&lt;li&gt;SCO OpenServer 7 for playing around in&lt;/li&gt;
+&lt;li&gt;The Solaris 10 and 11-VM&amp;rsquo;s for netboot and repositories for their respective versions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-stuff-i-power-on-when-needed&#34;&gt;The stuff i power on when needed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sun
+&lt;ul&gt;
+&lt;li&gt;SPARC Enterprise T5120
+&lt;ul&gt;
+&lt;li&gt;32 threads&lt;/li&gt;
+&lt;li&gt;32GB DDR2 FB-DIMM&lt;/li&gt;
+&lt;li&gt;1x 146GB disk for Solaris 11&lt;/li&gt;
+&lt;li&gt;2x 600GB for LDOMS/VMs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SPARC Enterprise T5220
+&lt;ul&gt;
+&lt;li&gt;32 threads&lt;/li&gt;
+&lt;li&gt;32GB DDR2 FB-DIMM&lt;/li&gt;
+&lt;li&gt;8x 146GB disk for Solaris 10 in a huge RAID-0 (YOLO)&lt;/li&gt;
+&lt;li&gt;runs zones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HPE
+&lt;ul&gt;
+&lt;li&gt;Proliant DL380e Gen8
+&lt;ul&gt;
+&lt;li&gt;2x Intel Xeon E5-2430L v2 (hexa-core)&lt;/li&gt;
+&lt;li&gt;256GB DDR3 RDIMM&lt;/li&gt;
+&lt;li&gt;Assorted mess of storage (both SSD and HDD)&lt;/li&gt;
+&lt;li&gt;Runs KVM, LXD and MicroK8S for stuff like training courses and playing around&lt;/li&gt;
+&lt;li&gt;also contains my Turnkey MVS-instance in Hercules&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DEC
+&lt;ul&gt;
+&lt;li&gt;AlphaServer DS20E
+&lt;ul&gt;
+&lt;li&gt;1x EV67 800Mhz (i have the second cpu as a spare)&lt;/li&gt;
+&lt;li&gt;1GB RAM&lt;/li&gt;
+&lt;li&gt;disks depend on whether i&amp;rsquo;m running OpenVMS or Tru64&lt;/li&gt;
+&lt;li&gt;HECnet node JIMIN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;VAXStation 4000 Model 60
+&lt;ul&gt;
+&lt;li&gt;KA46 VAX processor&lt;/li&gt;
+&lt;li&gt;32MB RAM&lt;/li&gt;
+&lt;li&gt;2x 72GB SCSI disk (one for OpenVMS, one for data)&lt;/li&gt;
+&lt;li&gt;HECnet node CHOA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;AlphaServer 1000e (EV5 version)
+&lt;ul&gt;
+&lt;li&gt;EV5 500 Mhz&lt;/li&gt;
+&lt;li&gt;768MB RAM&lt;/li&gt;
+&lt;li&gt;Has some weird issue with SCSI that i&amp;rsquo;m debugging, can only boot NT (and maybe other OSES from AlphaBios) ATM&lt;/li&gt;
+&lt;li&gt;HECnet node name once i get OpenVMS running again: A1KSPK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Why KVM?</title>
+      <link>http://sparcie.neocities.org/posts/why-kvm/</link>
+      <pubDate>Sun, 03 Nov 2024 10:52:50 +0100</pubDate>
+      
+      <guid>http://sparcie.neocities.org/posts/why-kvm/</guid>
+      <description>&lt;h1 id=&#34;why-use-kvm&#34;&gt;Why use KVM?&lt;/h1&gt;
+&lt;p&gt;Due to the Big.Little-like architecture of the 12th gen core-CPU&amp;rsquo;s most other hypervisors (like ESXi and Xen/XCP-NG) cannot use all cores.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;why-use-kvm&#34;&gt;Why use KVM?&lt;/h1&gt;
+&lt;p&gt;Due to the Big.Little-like architecture of the 12th gen core-CPU&amp;rsquo;s most other hypervisors (like ESXi and Xen/XCP-NG) cannot use all cores.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://sparcie.neocities.org/posts/about/</link>
+      <pubDate>Sun, 03 Nov 2024 09:52:50 +0100</pubDate>
+      
+      <guid>http://sparcie.neocities.org/posts/about/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://sparcie.neocities.org/wip.png&#34; alt=&#34;WIP&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a 29 year old Kubernetes, Linux/UNIX, DEC and Amiga geek.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://sparcie.neocities.org/wip.png&#34; alt=&#34;WIP&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a 29 year old Kubernetes, Linux/UNIX, DEC and Amiga geek.&lt;/p&gt;
 </content>
     </item>
     

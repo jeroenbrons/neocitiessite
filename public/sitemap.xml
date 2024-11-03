@@ -2,20 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2023-06-09T09:52:50+01:00</lastmod>
+    <loc>http://sparcie.neocities.org/tags/homelab/</loc>
+    <lastmod>2024-11-03T10:52:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2023-06-09T09:52:50+01:00</lastmod>
+    <loc>http://sparcie.neocities.org/tags/kvm/</loc>
+    <lastmod>2024-11-03T10:52:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/why-kvm/</loc>
-    <lastmod>2023-06-09T09:52:50+01:00</lastmod>
+    <loc>http://sparcie.neocities.org/posts/my-homelab/</loc>
+    <lastmod>2024-11-03T10:52:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-homelab/</loc>
-    <lastmod>2023-02-02T09:52:50+01:00</lastmod>
+    <loc>http://sparcie.neocities.org/posts/</loc>
+    <lastmod>2024-11-03T10:52:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://sparcie.neocities.org/</loc>
+    <lastmod>2024-11-03T10:52:50+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://sparcie.neocities.org/tags/</loc>
+    <lastmod>2024-11-03T10:52:50+01:00</lastmod>
+  </url><url>
+    <loc>http://sparcie.neocities.org/tags/virtualisation/</loc>
+    <lastmod>2024-11-03T10:52:50+01:00</lastmod>
+  </url><url>
+    <loc>http://sparcie.neocities.org/posts/why-kvm/</loc>
+    <lastmod>2024-11-03T10:52:50+01:00</lastmod>
+  </url><url>
+    <loc>http://sparcie.neocities.org/posts/about/</loc>
+    <lastmod>2024-11-03T09:52:50+01:00</lastmod>
+  </url><url>
+    <loc>http://sparcie.neocities.org/categories/</loc>
   </url>
 </urlset>

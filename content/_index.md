@@ -11,4 +11,4 @@ title: 'About'
 
 ![WIP](/wip.png)
 
-I'm a 29 year old Kubernetes, Linux/UNIX, DEC and Amiga geek.
+I'm a 29 year old Kubernetes, Linux/UNIX, DEC and Amiga geek. 

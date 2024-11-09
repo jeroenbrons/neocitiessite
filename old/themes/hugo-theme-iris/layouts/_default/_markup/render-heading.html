@@ -1,3 +1,0 @@
-{{ if and (ne .Level "1") (ne .Level "2") }}
-<h{{ .Level }} id="{{ .Anchor | safeURL }}" class="title is-3">{{ .Text | safeHTML }}</h{{ .Level }}>
-{{ end }}

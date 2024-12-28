@@ -249,5 +249,20 @@
 </content>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>http://sparcie.neocities.org/posts/about/</link>
+      <pubDate>Sun, 03 Nov 2024 09:52:50 +0100</pubDate>
+      
+      <guid>http://sparcie.neocities.org/posts/about/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://sparcie.neocities.org/wip.png&#34; alt=&#34;WIP&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a 29 year old Kubernetes, Linux/UNIX, DEC and Amiga geek.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://sparcie.neocities.org/wip.png&#34; alt=&#34;WIP&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a 29 year old Kubernetes, Linux/UNIX, DEC and Amiga geek.&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>

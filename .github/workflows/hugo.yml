@@ -57,6 +57,7 @@ jobs:
         with:
           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
           cleanup: false
+          neocities_supporter: false
           dist_dir: public
 
 

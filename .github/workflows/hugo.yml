@@ -53,7 +53,7 @@ jobs:
           hugo \
             --minify 
       - name: Deploy to neocities
-        uses: bcomnes/deploy-to-neocities@v2
+        uses: bcomnes/deploy-to-neocities@master
         with:
           api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
           cleanup: false
